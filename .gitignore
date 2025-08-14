@@ -1,0 +1,75 @@
+# ─────────────────────────────
+# KiCad
+# ─────────────────────────────
+# Backup & autosave files
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*.tmp
+*~
+_fossils/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_sch-bck
+*.kicad_pcb-bck
+
+# Exported manufacturing files (Gerbers, drill, etc.)
+*.gbr
+*.gtl
+*.gbl
+*.gto
+*.gbo
+*.gts
+*.gbs
+*.gko
+*.drl
+*.map
+*.pos
+*.csv
+*.zip
+
+# Simulation outputs
+*.raw
+*.log
+*.out
+
+# 3D model cache
+*.wrl
+*.step
+*.stp
+
+# ─────────────────────────────
+# Arduino IDE
+# ─────────────────────────────
+# Build outputs
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+
+# Arduino build folders
+build/
+*.cpp.d
+*.cpp.o
+*.ino.cpp
+*.ino.d
+*.ino.o
+
+# Temporary upload files
+*.part
+upload.*
+
+# Arduino library cache
+*.a
+
+# ─────────────────────────────
+# General editor/OS cruft
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
