@@ -3,6 +3,7 @@
 # ─────────────────────────────
 # Backup & autosave files
 *.bak
+*.lck
 *.kicad_pcb-bak
 *.sch-bak
 *.tmp
