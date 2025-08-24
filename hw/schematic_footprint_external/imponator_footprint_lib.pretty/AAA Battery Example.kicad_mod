@@ -1,0 +1,152 @@
+(footprint "AAA Battery Example"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.25 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9e302ae5-466e-4cd8-8cdb-630259d1092c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AAA Battery Example"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a319a9e-80a4-4242-9f0a-d17c875550d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7535a0a6-1b01-4102-9349-4842ba5c8152")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd6652e7-bb51-40ec-a16f-80163bf9fbb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -22.9 6.7)
+		(end -22.4 6.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "101eb5f8-11a5-489e-b966-f0c829edc3fe")
+	)
+	(fp_line
+		(start -22.9 11.4)
+		(end -22.9 6.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86b990c3-cb7d-4444-becf-1ad1d4d02155")
+	)
+	(fp_line
+		(start -22.4 11.4)
+		(end -22.9 11.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f9f29e1-2096-4721-aec0-fda6a2ea0562")
+	)
+	(fp_line
+		(start -20.875 8.75)
+		(end -17.125 8.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11a2a885-9c6c-4ae2-b803-4e48d5677c17")
+	)
+	(fp_line
+		(start -19 6.875)
+		(end -19 10.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed289f04-01b2-47d5-92d3-72e53b6fb2ec")
+	)
+	(fp_line
+		(start 16.875 9.25)
+		(end 20.625 9.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f9d3ff3-743f-41d3-b7ec-751f005260bc")
+	)
+	(fp_rect
+		(start -22.375 4)
+		(end 22.375 14.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "47054aaa-7dcf-4de9-af6d-94a2eea28385")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d5d914ac-d298-4c77-97ea-e3a74a8a42d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/home/bruk/git/hackeriet/imponator/hw/schematic_footprint_external/AAA Battery.STEP"
+		(offset
+			(xyz 21.5 -9 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
+)

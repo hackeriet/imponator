@@ -478,16 +478,7 @@
 		(layer "F.Fab")
 		(uuid "ecb46b74-0496-43e6-aea2-40024bca48f9")
 	)
-	(pad "P1" thru_hole circle
-		(at 0 0)
-		(size 1.98 1.98)
-		(drill 1.32)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "2ef9cfee-49b3-4399-a9ff-2b6feebfe360")
-	)
-	(pad "P2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -4.445 -3.05)
 		(size 1.98 1.98)
 		(drill 1.32)
@@ -496,7 +487,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "48c0254e-cee5-4294-acbd-72e97a586b5c")
 	)
-	(pad "P3" thru_hole circle
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2ef9cfee-49b3-4399-a9ff-2b6feebfe360")
+	)
+	(pad "1" thru_hole circle
 		(at 4.445 -3.05)
 		(size 1.98 1.98)
 		(drill 1.32)
@@ -506,4 +506,15 @@
 		(uuid "a4d8fdef-8582-4146-80c9-7b32caa0c8c7")
 	)
 	(embedded_fonts no)
+	(model "/home/bruk/git/hackeriet/imponator/hw/schematic_footprint_external/597.step"
+		(offset
+			(xyz -4.3 6.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )
