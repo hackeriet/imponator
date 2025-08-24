@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "imponator_footprint_lib")(type "KiCad")(uri "/home/bruk/git/hackeriet/imponator/hw/schematic_footprint_external/imponator_footprint_lib.pretty")(options "")(descr ""))
+)
