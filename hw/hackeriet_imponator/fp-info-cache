@@ -1,4 +1,4 @@
-26125142679130767
+26128662069257120
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104166,6 +104166,20 @@ BAT_1022
 0
 4
 4
+imponator_footprint_lib
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+imponator_footprint_lib
+mouse-bite-3mm-slot
+
+
+0
+0
+0
 imponator_footprint_lib
 strap_hole
 
