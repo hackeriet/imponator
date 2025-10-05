@@ -4,9 +4,36 @@
 	(generator_version "9.0")
 	(uuid "469a2550-d397-4ef7-965d-96f8e6eb26aa")
 	(paper "A4")
+	(title_block
+		(title "Imponator")
+		(date "2025-10-05")
+		(rev "1")
+		(company "Hackeriet")
+		(comment 1 "Designed by: Sigurd Hellesvik")
+	)
 	(lib_symbols)
+	(text_box "Note:\nUser can choose to use either Battery Addon\nor External Battery Connector on main PCB\nfor batteries"
+		(exclude_from_sim no)
+		(at 165.1 132.08 0)
+		(size 50.8 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c5c0addb-d865-44b6-b2b4-862cb15eb7ca")
+	)
 	(sheet
-		(at 26.67 128.27)
+		(at 106.68 82.55)
 		(size 50.8 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +49,7 @@
 		)
 		(uuid "349d5790-44fb-4d87-9f4f-a93089b35f46")
 		(property "Sheetname" "Main PCB"
-			(at 26.67 127.5584 0)
+			(at 106.68 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +58,7 @@
 			)
 		)
 		(property "Sheetfile" "main_pcb.kicad_sch"
-			(at 26.67 173.3046 0)
+			(at 106.68 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +75,50 @@
 		)
 	)
 	(sheet
-		(at 88.9 128.27)
-		(size 58.42 45.72)
+		(at 165.1 82.55)
+		(size 46.99 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72e2b3a8-de00-4091-961b-8f44049fd850")
+		(property "Sheetname" "Battery Addon"
+			(at 165.1 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_addon.kicad_sch"
+			(at 165.1 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 82.55)
+		(size 50.8 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +133,7 @@
 		)
 		(uuid "dbdf52b6-d73f-4f4b-9173-956febd7557e")
 		(property "Sheetname" "Outer ring"
-			(at 88.9 127.5584 0)
+			(at 45.72 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +142,7 @@
 			)
 		)
 		(property "Sheetfile" "Outer ring.kicad_sch"
-			(at 88.9 174.5746 0)
+			(at 45.72 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
