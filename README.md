@@ -9,4 +9,6 @@ Lessons learned after the test version
 - [ ] Add useful information to bottom side. Such as link. Or maybe also fun stuff, its free (silkscreen) real estate after all.
 - [ ] Add pin 1 indicator to Shitty Add-on header.
 - [ ] Add 3 step toggle switch to switch between battery,external battery and USB C
+- [ ] Consider adding button(s)
+
 
