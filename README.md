@@ -16,3 +16,4 @@ Lessons learned after the test version
 - [ ] If keeping USB LED, add footprint for resistor in series. Also make it so that the USB LED is off by default and only blinks during transfer.
 - [ ] Find out why USB C alone does not power this thing.
 - [ ] Split LEDs to two different pins, so brightness can be controlled individually.
+- [ ] Swap ring out for sideways LEDS. WS2812B-4020.
