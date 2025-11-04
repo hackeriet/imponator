@@ -9,15 +9,16 @@ Lessons learned after the test version
 - [ ] Add useful information to bottom side. Such as link. Or maybe also fun stuff, its free (silkscreen) real estate after all.
 - [ ] Add pin 1 indicator to Shitty Add-on header.
 - [ ] Add 3 step toggle switch to switch between battery,external battery and USB C.
-- [ ] Consider adding button(s).
+- [ ] Consider adding button(s). And/or encoder.
 - [ ] Add numbering to UPDI programming header.
 - [ ] Add github link.
 - [ ] Add LED for SoC, so we can run blinky.
 - [ ] If keeping USB LED, add footprint for resistor in series. Also make it so that the USB LED is off by default and only blinks during transfer.
-- [ ] Find out why USB C alone does not power this thing.
 - Fix MINUS LEDs.
     - [ ] Split LEDs to two different pins, so brightness can be controlled individually.
     - [ ] Minus LEDs should use diffused LEDs,
-    - [ ] or add a Diffuser acryllic as minus with sideways LED.
+    - [ ] or add a Diffuser acryllic as minus with sideways LED. Press-fitted in hole in the PCB.
 - [ ] Add accelerometer or similar
 - [ ] Swap ring out for sideways LEDS. WS2812B-4020.
+    - Add more LEDs.
+- [ ] Double check all components to see if we need an LDO.
