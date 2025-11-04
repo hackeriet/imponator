@@ -19,5 +19,5 @@ Lessons learned after the test version
     - [ ] Split LEDs to two different pins, so brightness can be controlled individually.
     - [ ] Minus LEDs should use diffused LEDs,
     - [ ] or add a Diffuser acryllic as minus with sideways LED.
-
 - [ ] Add accelerometer or similar
+- [ ] Swap ring out for sideways LEDS. WS2812B-4020.
