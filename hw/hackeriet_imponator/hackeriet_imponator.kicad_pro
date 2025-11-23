@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|175111693|85637852|c36bed8f-52bf-43c1-8628-8f365f17858c|20c1f4a5-4945-46d4-b891-1ac3f22d1724|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -636,14 +631,6 @@
     [
       "349d5790-44fb-4d87-9f4f-a93089b35f46",
       "Main PCB"
-    ],
-    [
-      "dbdf52b6-d73f-4f4b-9173-956febd7557e",
-      "Outer ring"
-    ],
-    [
-      "72e2b3a8-de00-4091-961b-8f44049fd850",
-      "Battery Addon"
     ]
   ],
   "text_variables": {}
