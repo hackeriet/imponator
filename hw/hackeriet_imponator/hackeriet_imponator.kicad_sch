@@ -1590,189 +1590,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3286,6 +3103,16 @@
 		)
 		(uuid fc6dbc6d-af79-4a78-b130-a84dd3c17234)
 	)
+	(text "LOGO"
+		(exclude_from_sim no)
+		(at 192.786 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b55f28f-839b-4778-aeed-195bc47441d1")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 147.32 95.504 0)
@@ -3325,6 +3152,16 @@
 			)
 		)
 		(uuid "a5bbb802-590d-4f8a-be8a-0a15cd37b328")
+	)
+	(text "MINUS"
+		(exclude_from_sim no)
+		(at 251.714 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5e97cce-eba6-4088-82d2-f4e1e04c0b67")
 	)
 	(text "Connectors\n"
 		(exclude_from_sim no)
@@ -3420,16 +3257,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 49.53) (xy 198.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120971cc-6bd7-4773-9674-d7d70c5510d1")
-	)
-	(wire
-		(pts
 			(xy 81.28 48.26) (xy 92.71 48.26)
 		)
 		(stroke
@@ -3460,16 +3287,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 49.53) (xy 217.17 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1dc613-f8ab-4bc8-a11e-9465269f037a")
-	)
-	(wire
-		(pts
 			(xy 69.85 113.03) (xy 72.39 113.03)
 		)
 		(stroke
@@ -3497,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "4495e3c5-89f6-4e84-b625-e7b60f27171f")
+	)
+	(wire
+		(pts
+			(xy 177.8 33.02) (xy 177.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d292897-3ce6-45c7-8ec9-6e23beb01a60")
 	)
 	(wire
 		(pts
@@ -3537,6 +3364,16 @@
 			(type default)
 		)
 		(uuid "5cdd1487-7087-48d4-aeec-28e2f3213c27")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63881ad9-4d68-415b-8bd1-803bf2f5950d")
 	)
 	(wire
 		(pts
@@ -3620,6 +3457,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 48.26) (xy 236.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c5e457-fb6a-4e5f-8c62-3b80c7ca84c0")
+	)
+	(wire
+		(pts
 			(xy 49.53 53.34) (xy 50.8 53.34)
 		)
 		(stroke
@@ -3680,16 +3527,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 120.65 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aabb45d9-5b33-4dc0-9e4f-d6f840297d0f")
-	)
-	(wire
-		(pts
 			(xy 59.69 127) (xy 66.04 127)
 		)
 		(stroke
@@ -3707,6 +3544,16 @@
 			(type default)
 		)
 		(uuid "b5531895-0385-4417-b71f-86705583bc4e")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 177.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ddd3d6-1984-4b85-8d5e-5b5a6d57bf1d")
 	)
 	(wire
 		(pts
@@ -3770,16 +3617,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 129.54) (xy 132.08 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce222322-b4a1-444d-96aa-aac9563b1779")
-	)
-	(wire
-		(pts
 			(xy 66.04 121.92) (xy 66.04 124.46)
 		)
 		(stroke
@@ -3807,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "dc4442ba-702d-41c2-b8b3-193be56a2023")
+	)
+	(polyline
+		(pts
+			(xy 234.95 33.02) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e23e5f9f-9952-43cb-a5f7-84b1ee93ed78")
 	)
 	(wire
 		(pts
@@ -3850,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 49.53) (xy 179.07 49.53)
+			(xy 175.26 29.21) (xy 177.8 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +3751,7 @@
 	)
 	(global_label "WS2812B LED RGB Control"
 		(shape input)
-		(at 176.53 49.53 180)
+		(at 175.26 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3914,7 +3761,7 @@
 		)
 		(uuid "0f233f3f-c391-4cd9-a5d9-c6191399dbb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7219 49.53 0)
+			(at 146.4519 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,15 +4257,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 186.69 49.53 0)
+		(at 161.29 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00528f17-2356-4f41-b935-de27ceb416af")
-		(property "Reference" "D2"
-			(at 191.262 39.37 0)
+		(property "Reference" "D1"
+			(at 165.862 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4273,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 192.278 42.418 0)
+			(at 166.878 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4281,7 @@
 			)
 		)
 		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
-			(at 187.96 57.15 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 189.23 59.055 0)
+			(at 163.83 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4301,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 186.69 49.53 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4324,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "091311af-c4f9-43ad-b410-0daa7f3140dc")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 43.18 39.3699 0)
 			(effects
 				(font
@@ -4546,7 +4393,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1574fbc3-53c9-4ce2-bd83-71a58623e9f6")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 97.79 109.2199 0)
 			(effects
 				(font
@@ -4615,7 +4462,82 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "R3")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 191.77 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a8c1b6e-7e70-4226-8e2b-171c38ecd3b9")
+		(property "Reference" "D3"
+			(at 196.342 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 197.358 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 194.31 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e366eb88-329a-4fd9-ae08-80993af2649f")
+		)
+		(pin "2"
+			(uuid "ba3cbbe4-8986-489a-ac96-68b312b159fd")
+		)
+		(pin "3"
+			(uuid "6750ae14-f325-4985-a32e-65a29ed84c43")
+		)
+		(pin "1"
+			(uuid "d6e332b2-6c45-48cd-8443-2c8d3743487a")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d888a7f-b642-4dc6-9543-fe366ee772dd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -4681,7 +4603,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4697,7 +4619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244bc6be-c2b6-43c0-b892-0109e855a438")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR033"
 			(at 229.87 134.62 0)
 			(effects
 				(font
@@ -4747,7 +4669,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR023")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4762,7 +4684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26b89161-69ea-4a3a-8e41-d6d90ddb4bef")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -4812,7 +4734,72 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR09")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3147cebe-a140-4e69-9990-dfa97ce14b19")
+		(property "Reference" "#PWR026"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 191.008 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9014587a-765f-4f9b-b986-7026672cdeef")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4820,15 +4807,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 224.79 49.53 0)
+		(at 176.53 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "35aa56c7-c642-4254-a81a-ae00e231b746")
-		(property "Reference" "D4"
-			(at 229.362 39.37 0)
+		(property "Reference" "D2"
+			(at 181.102 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4823,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 230.378 42.418 0)
+			(at 182.118 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4831,7 @@
 			)
 		)
 		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
-			(at 226.06 57.15 0)
+			(at 177.8 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4841,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 227.33 59.055 0)
+			(at 179.07 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4851,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 224.79 49.53 0)
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4874,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4902,7 +4889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36b23973-0b1b-45f8-87ed-7c2452579f9c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR06"
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -4952,73 +4939,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3934ed68-e775-475b-94a6-8a585cf83b84")
-		(property "Reference" "#PWR014"
-			(at 132.08 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35191003-9a16-4b13-bb0b-1e6b0852166d")
-		)
-		(instances
-			(project "hackeriet_imponator"
-				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5033,7 +4954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1ed820-7c2b-4cdf-a24f-d4299f1d615b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 72.39 124.46 0)
 			(effects
 				(font
@@ -5083,7 +5004,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5098,7 +5019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f72fc41-d198-4328-8857-3028c7a72590")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 66.04 110.744 90)
 			(effects
 				(font
@@ -5150,72 +5071,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 205.74 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42c20e82-77e3-4a0e-bb34-a390427bdd8a")
-		(property "Reference" "#PWR024"
-			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 204.978 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 205.74 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06c7d1b6-8ea5-414e-a5f1-87030d8a7a28")
-		)
-		(instances
-			(project "hackeriet_imponator"
-				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR024")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "430aaee3-13ea-467b-bc4d-49a9af3b0267")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 72.39 119.38 0)
 			(effects
 				(font
@@ -5280,7 +5136,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ed751ba-2058-4539-8cb6-5f26ac9a258a")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 50.8 39.3699 0)
 			(effects
 				(font
@@ -5485,7 +5341,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5559,6 +5415,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 243.84 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "624d4b2d-1a4f-42d3-a9d8-4c34ae9a80d7")
+		(property "Reference" "D6"
+			(at 248.412 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 249.428 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 246.38 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "825b88f8-de65-4b82-a177-759562033893")
+		)
+		(pin "2"
+			(uuid "784095cc-421d-4fed-9036-2c5994b11cd1")
+		)
+		(pin "3"
+			(uuid "561f8e41-ca72-4a8d-87e6-e18eed38eecc")
+		)
+		(pin "1"
+			(uuid "0f6a2871-b82c-472c-bb72-0e02565883bc")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 190.5 135.89 0)
 		(unit 1)
@@ -5567,7 +5498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ad1b22-f0fd-42b4-ae58-9089d96c4a29")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR025"
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -5617,7 +5548,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR018")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5633,7 +5564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64bd9eeb-9ef3-4ed2-be7b-b7488ed6ca67")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 106.68 148.59 0)
 			(effects
 				(font
@@ -5683,7 +5614,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5769,15 +5700,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 41.91 0)
+		(at 176.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6bed37b5-6619-4f4c-934e-489ed1a86479")
-		(property "Reference" "#PWR025"
-			(at 224.79 45.72 0)
+		(property "Reference" "#PWR023"
+			(at 176.53 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5717,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 224.028 37.846 0)
+			(at 175.768 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 41.91 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 41.91 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 41.91 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5757,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5841,7 +5772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bee6239-0219-4d88-8d48-5d8020a9a085")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -5891,7 +5822,138 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR03")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 222.25 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e8bfd6a-282f-4845-b4f7-f530a8de8d64")
+		(property "Reference" "#PWR030"
+			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 221.488 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aed86151-2027-42b2-9b30-6f4ed1287487")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ebd819a-a651-470b-9e98-6894ff577834")
+		(property "Reference" "#PWR035"
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f0a7232-5c7c-45b0-bf8a-c56b04ac90e1")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5899,15 +5961,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 205.74 49.53 0)
+		(at 207.01 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "748aea7a-c813-44bf-ace1-a16451ff18b9")
-		(property "Reference" "D3"
-			(at 210.312 39.37 0)
+		(uuid "704825c9-5131-4ff2-9e04-5a0f47dd4d65")
+		(property "Reference" "D4"
+			(at 211.582 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5977,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 211.328 42.418 0)
+			(at 212.598 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5985,7 @@
 			)
 		)
 		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
-			(at 207.01 57.15 0)
+			(at 208.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5995,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 208.28 59.055 0)
+			(at 209.55 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6005,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 205.74 49.53 0)
+			(at 207.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,21 +6014,87 @@
 			)
 		)
 		(pin "4"
-			(uuid "fd7e0f3d-1ede-4a08-a3c6-bebdd7eeb389")
+			(uuid "f1785be9-61e5-4c67-bde7-11b07da929bb")
 		)
 		(pin "2"
-			(uuid "54502c9d-b447-4740-874a-4b8de49a7bc8")
+			(uuid "d959f3f2-10e7-45bb-be1f-e84becd3a644")
 		)
 		(pin "3"
-			(uuid "2c42d201-d569-4af5-8c49-9c0794d0d29e")
+			(uuid "e2a56cbe-109b-49ed-9c5b-c2fb19d46efd")
 		)
 		(pin "1"
-			(uuid "99b152af-9f6a-4c40-9d61-4423ab4fdfcd")
+			(uuid "805ea445-fc19-4f25-a30d-dbf4434f9b34")
 		)
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "D3")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79c8df3c-71b0-4427-89a6-3c00550a2c9d")
+		(property "Reference" "#PWR031"
+			(at 222.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50be5353-af94-4ab0-b1c8-c7ee2691bfe8")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5981,7 +6109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a662d45-2826-4e07-8aef-5b6d0474cf3f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -6031,7 +6159,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf8c7d3-e782-4003-b458-38dc112be19f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 44.45 153.67 0)
 			(effects
 				(font
@@ -6097,7 +6225,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6112,7 +6240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de1e412-a995-4f31-898c-dba1b8f1fe08")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -6162,7 +6290,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6177,7 +6305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7df8f07f-bfca-4dc4-a15c-00392716aa71")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR02"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -6227,7 +6355,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR039")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6235,7 +6363,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 57.15 0)
+		(at 161.29 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6243,8 +6371,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a31d5c-3854-48f9-869c-77bd94fc2dd2")
-		(property "Reference" "#PWR021"
-			(at 186.69 63.5 0)
+		(property "Reference" "#PWR018"
+			(at 161.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 62.23 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 57.15 0)
+			(at 161.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +6398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 57.15 0)
+			(at 161.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 57.15 0)
+			(at 161.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6421,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6309,7 +6437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85594315-1d66-4feb-b3be-2457c15ab656")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 119.38 113.03 0)
 			(effects
 				(font
@@ -6359,7 +6487,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e9ac937-2bcc-4484-b107-9b71b553d1db")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 66.04 34.29 0)
 			(effects
 				(font
@@ -6537,7 +6665,73 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR04")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9060b2c5-24be-4ce0-b9dc-d5d79ebdf47f")
+		(property "Reference" "#PWR029"
+			(at 207.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bc48f0c-e01a-46b8-9af1-d7dd371661f5")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6552,7 +6746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99746eb7-ab22-4169-bea9-2a6bedf9276d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -6602,7 +6796,82 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR011")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 222.25 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2014fcb-c8ad-4551-8799-c21f2a6a98b3")
+		(property "Reference" "D5"
+			(at 226.822 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 227.838 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
+			(at 223.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 224.79 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6b35e7d7-29c3-4abd-a64c-4b929a68723f")
+		)
+		(pin "2"
+			(uuid "65877632-578e-4856-b4a4-30013aaf57e3")
+		)
+		(pin "3"
+			(uuid "b8552383-15f1-46bc-b9fb-d2f279e0d1c1")
+		)
+		(pin "1"
+			(uuid "d00f987f-0c99-4b4c-8a7a-2698a153f4c4")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6716,72 +6985,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5e1fd54-0fd9-44c7-aa56-7e60dcc866ec")
-		(property "Reference" "#PWR028"
-			(at 205.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "626e3f32-ddf6-4405-955b-ceaf2ded1474")
-		)
-		(instances
-			(project "hackeriet_imponator"
-				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 105.41 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6789,7 +6992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a697c677-3582-4242-b5f7-9676b59183b9")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -6840,7 +7043,73 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR010")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afea15e0-0f80-4858-86dc-b64980980a2e")
+		(property "Reference" "#PWR037"
+			(at 259.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799dccd9-a455-4764-9578-b2f3d6d4a3fc")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6855,7 +7124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b026c017-dbc0-4c01-83e9-c8ba510200f7")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 66.04 115.824 90)
 			(effects
 				(font
@@ -6907,7 +7176,213 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "R2")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2627c13-02dd-4927-8a09-e3e96eec3a1c")
+		(property "Reference" "#PWR036"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 258.318 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f7a511f-583b-454f-a605-54e7b529d8e6")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b97d82e7-560d-40f3-b4dd-fd1babe40d00")
+		(property "Reference" "#PWR027"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90941a1e-f266-4037-bc75-657ca2f60eb7")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 259.08 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bad639db-8114-4218-b962-aa6db5fa82ec")
+		(property "Reference" "D7"
+			(at 263.652 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 264.668 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "imponator_footprint_lib:LED_WS2812B-4020"
+			(at 260.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 261.62 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4cdd9ee4-7bb1-4279-b299-1f3fa2a64ca3")
+		)
+		(pin "2"
+			(uuid "0a23aeab-52ca-4232-bea4-16571a28111f")
+		)
+		(pin "3"
+			(uuid "eb3cf7ec-452d-4ca9-ae4a-2b87be375a7d")
+		)
+		(pin "1"
+			(uuid "28833f0a-e955-49d5-ae28-17ee15428c0d")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7028,7 +7503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c045d94a-cff7-4cd0-9d15-89ec9b8d73d9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 166.37 115.57 0)
 			(effects
 				(font
@@ -7078,7 +7553,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7161,7 +7636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc240282-c2e0-47a9-9532-504e6d9a3917")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR04"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -7211,24 +7686,23 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR040")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 224.79 57.15 0)
+		(lib_id "power:+3.3V")
+		(at 207.01 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cec95221-e8f2-41c3-8e10-1ba9dda3772d")
-		(property "Reference" "#PWR029"
-			(at 224.79 63.5 0)
+		(uuid "cc4bdff0-dae0-43ab-95dc-a23b3fb66579")
+		(property "Reference" "#PWR028"
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,8 +7710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 224.79 62.23 0)
+		(property "Value" "VDD"
+			(at 206.248 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 57.15 0)
+			(at 207.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7728,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 57.15 0)
+			(at 207.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 207.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d3651d7-09b5-4b5e-8679-2940f78805dc")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec95221-e8f2-41c3-8e10-1ba9dda3772d")
+		(property "Reference" "#PWR024"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 57.15 0)
+			(at 176.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,83 +7817,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 124.46 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6c46183-d12b-4f6a-a717-db49a33d1f6b")
-		(property "Reference" "D1"
-			(at 124.714 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Rx LED"
-			(at 124.968 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23e2604f-ce30-41f1-92d6-533b6b107c67")
-		)
-		(pin "2"
-			(uuid "2fb1fdff-9786-4c69-9003-f99234f37db9")
-		)
-		(instances
-			(project "hackeriet_imponator"
-				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "D1")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7361,15 +7825,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 186.69 41.91 0)
+		(at 243.84 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de4b63af-20bc-49ac-8f34-936660239eb4")
-		(property "Reference" "#PWR020"
-			(at 186.69 45.72 0)
+		(uuid "d84e47dc-ac5e-47b1-aa83-ecc870c60f82")
+		(property "Reference" "#PWR034"
+			(at 243.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7842,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 185.928 37.846 0)
+			(at 243.078 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,7 +7850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 41.91 0)
+			(at 243.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 41.91 0)
+			(at 243.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +7868,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 41.91 0)
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e8820cb-7cbf-412e-83a0-cc9d61111f88")
+		)
+		(instances
+			(project "hackeriet_imponator"
+				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de4b63af-20bc-49ac-8f34-936660239eb4")
+		(property "Reference" "#PWR017"
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 160.528 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7947,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7433,7 +7962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e40e3c09-ebb8-411b-a111-b53fe4a1cc0d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 171.45 137.16 0)
 			(effects
 				(font
@@ -7483,7 +8012,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7498,7 +8027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6b907c1-a43c-4fc2-87b3-93b5bc552422")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 229.87 129.54 0)
 			(effects
 				(font
@@ -7548,7 +8077,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7780,7 +8309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4f6446e-6ef9-4f35-94fd-ef774d948e0c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 166.37 110.49 0)
 			(effects
 				(font
@@ -7830,7 +8359,7 @@
 		(instances
 			(project "hackeriet_imponator"
 				(path "/469a2550-d397-4ef7-965d-96f8e6eb26aa"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
