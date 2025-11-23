@@ -22,3 +22,4 @@ Lessons learned after the test version
 - [ ] Swap ring out for sideways LEDS. WS2812B-4020.
     - Add more LEDs.
 - [ ] Double check all components to see if we need an LDO.
+- [ ] Remove backplate for batteries. Instead use battery box with possible 3d printed holder.
