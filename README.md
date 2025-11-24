@@ -9,17 +9,23 @@ Lessons learned after the test version
 - [ ] Add useful information to bottom side. Such as link. Or maybe also fun stuff, its free (silkscreen) real estate after all.
 - [ ] Add pin 1 indicator to Shitty Add-on header.
 - [x] Add 2 step toggle switch to switch between external battery and USB C.
-- [ ] Consider adding button(s). And/or encoder.
+- [x] Consider adding button(s). And/or encoder.
+    - Added two buttons.
 - [ ] Add numbering to UPDI programming header.
 - [ ] Add github link.
-- [ ] Add LED for SoC, so we can run blinky.
-- [ ] If keeping USB LED, add footprint for resistor in series. Also make it so that the USB LED is off by default and only blinks during transfer.
-- Fix MINUS LEDs.
-    - [ ] Split LEDs to two different pins, so brightness can be controlled individually.
-    - [ ] Minus LEDs should use diffused LEDs,
+- [x] Add LED for SoC, so we can run blinky.
+    - Wont do, no pin real estate.
+- [x] If keeping USB LED, add footprint for resistor in series. Also make it so that the USB LED is off by default and only blinks during transfer.
+    - Removed USB LED.
+- [x] Fix MINUS LEDs.
+    - [x] Split LEDs to two different pins, so brightness can be controlled individually.
+        - Will not do, cause we now use acryllic instead, so brightness should be the same.
+    - [x] Minus LEDs should use diffused LEDs,
+        - Did not choose this method
     - [ ] or add a Diffuser acryllic as minus with sideways LED. Press-fitted in hole in the PCB.
-- [ ] Add accelerometer or similar
+- [x] Add accelerometer or similar
 - [X] Swap ring out for sideways LEDS. WS2812B-4020.
-    - Add more LEDs.
+    - Added more LEDs also.
 - [ ] Double check all components to see if we need an LDO.
 - [ ] Remove backplate for batteries. Instead use battery box with possible 3d printed holder.
+- [ ] Add LDO.
