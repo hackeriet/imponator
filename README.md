@@ -27,5 +27,8 @@ Lessons learned after the test version
 - [X] Swap ring out for sideways LEDS. WS2812B-4020.
     - Added more LEDs also.
 - [ ] Double check all components to see if we need an LDO.
-- [ ] Remove backplate for batteries. Instead use battery box with possible 3d printed holder.
-- [ ] Add LDO.
+- [x] Remove backplate for batteries. Instead use battery box with possible 3d printed holder.
+    - Will make 3d printed holder when needed later.
+- [x] Add LDO.
+    - Hopefully not needed for full device, as 3xAAA goes down to ca 3.2, and LEDs probably just get a bit dimmer at that point.
+    - Added LDO for accelerometer.
