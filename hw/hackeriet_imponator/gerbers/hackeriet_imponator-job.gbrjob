@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4"
+      "Version": "9.0.6"
     },
-    "CreationDate": "2025-10-05T23:07:57+02:00"
+    "CreationDate": "2025-12-04T20:34:04+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "hackeriet_imponator",
       "GUID": "6861636b-6572-4696-9574-5f696d706f6e",
-      "Revision": "0.0.1"
+      "Revision": "0.0.2"
     },
     "Size": {
-      "X": 142.7664,
-      "Y": 133.0377
+      "X": 68.8,
+      "Y": 68.8
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -28,8 +28,8 @@
       "PadToTrack": 0.1,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [

@@ -9,7 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hackeriet Imponator")
-		(rev "0.0.1")
+		(date "2025-12-04")
+		(rev "0.0.2")
 		(company "Hackeriet")
 	)
 	(layers
@@ -79,7 +80,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
