@@ -5,14 +5,14 @@ Below, you see the layout for the test version, ordered from JLCPCB:
 
 ## TODO
 Lessons learned after the test version
-- [ ] Remove Silkscreen text from top side. Either delete or move to bottom side.
-- [ ] Add useful information to bottom side. Such as link. Or maybe also fun stuff, its free (silkscreen) real estate after all.
-- [ ] Add pin 1 indicator to Shitty Add-on header.
+- [X] Remove Silkscreen text from top side. Either delete or move to bottom side.
+- [X] Add useful information to bottom side. Such as link. Or maybe also fun stuff, its free (silkscreen) real estate after all.
+- [X] Add pin 1 indicator to Shitty Add-on header.
 - [x] Add 2 step toggle switch to switch between external battery and USB C.
 - [x] Consider adding button(s). And/or encoder.
     - Added two buttons.
-- [ ] Add numbering to UPDI programming header.
-- [ ] Add github link.
+- [X] Add numbering to UPDI programming header.
+- [X] Add github link.
 - [x] Add LED for SoC, so we can run blinky.
     - Wont do, no pin real estate.
 - [x] If keeping USB LED, add footprint for resistor in series. Also make it so that the USB LED is off by default and only blinks during transfer.
@@ -26,7 +26,7 @@ Lessons learned after the test version
 - [x] Add accelerometer or similar
 - [X] Swap ring out for sideways LEDS. WS2812B-4020.
     - Added more LEDs also.
-- [ ] Double check all components to see if we need an LDO.
+- [X] Double check all components to see if we need an LDO.
 - [x] Remove backplate for batteries. Instead use battery box with possible 3d printed holder.
     - Will make 3d printed holder when needed later.
 - [x] Add LDO.
