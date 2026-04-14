@@ -22,7 +22,7 @@ Lessons learned after the test version
         - Will not do, cause we now use acryllic instead, so brightness should be the same.
     - [x] Minus LEDs should use diffused LEDs,
         - Did not choose this method
-    - [ ] or add a Diffuser acryllic as minus with sideways LED. Press-fitted in hole in the PCB.
+    - [x] or add a Diffuser acryllic as minus with sideways LED. Press-fitted in hole in the PCB.
 - [x] Add accelerometer or similar
 - [X] Swap ring out for sideways LEDS. WS2812B-4020.
     - Added more LEDs also.
