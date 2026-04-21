@@ -22,7 +22,7 @@ We will have a soldering course soon. Here is a list of what needs to be prepare
     - [x] LDO
     - [x] Transistors
 - [x] Order PCBs
-- [ ] Receoive PCBs
+- [x] Receoive PCBs
 - [ ] Pre-solder LEDs
 - [ ] Safety-goggles
 - [ ] Fans with carbon filters
