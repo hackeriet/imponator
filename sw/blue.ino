@@ -1,7 +1,7 @@
 // This was vibecoded. Do not trust it.
 #include <tinyNeoPixel.h>
 
-#define PIN PIN_PB1
+#define PIN PIN_PA1
 #define PIN_2 PIN_PA2
 #define NUM_LEDS 5
 #define NUM_LEDS_2 2
