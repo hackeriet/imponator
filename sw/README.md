@@ -2,8 +2,11 @@
 You can program the ATtiny804 however you like. I know it works with C and whatever Microchip supplies. I also suspect Rust has support for it. However, I have tested it with Arduino, and thus that is what I document below.
 
 ## Bootloader
+If you want to program the badge over USB, you need a bootloader. The hex for the [Optiboot](https://github.com/Optiboot/optiboot) bootloader built for this badge is inlcuded here. The version of the hex here has the PA7 moved as to not reset the MCP2221 every time the bootloader starts.
+First, write fuses, and then flash the bootloader:
 ```
-avrdude -p attiny804 -c serialupdi -P /dev/ttyUSB0 -b 230400 -U fuse6:w:0x06:m -U fuse7:w:0x00:m -U fuse8:w:0x02:m
+avrdude -p t804 -c serialupdi -P /dev/ttyUSB0 -b 230400 -U fuse6:w:0x06:m -U fuse7:w:0x00:m -U fuse8:w:0x02:m
+avrdude -p t804 -c serialupdi -P /dev/ttyUSB0 -b 230400 -U flash:w:bootloader_hex/optiboot_attiny804.hex:i
 ```
 
 ## Arduino
