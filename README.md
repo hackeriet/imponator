@@ -49,9 +49,9 @@ The badge has one external connector, which complies to the Shitty Add-On versio
 ## TODO
 We will have a soldering course soon. Here is a list of what needs to be prepared
 
-- [ ] Get 30x diffusers, both MINUS end BODY
-    - [ ] Decide diffuser adhesive design
-    - [ ] Purchase acryllic
+- [x] Get 30x diffusers, both MINUS end BODY
+    - [x] Decide diffuser adhesive design
+    - [x] Purchase acryllic
 - [ ] Count parts we have, and order outstanding
     - [x] USBs
     - [x] Attinys
@@ -66,8 +66,72 @@ We will have a soldering course soon. Here is a list of what needs to be prepare
     - [x] Transistors
 - [x] Order PCBs
 - [x] Receoive PCBs
-- [ ] Pre-solder LEDs
+- [x] Pre-solder LEDs
 - [ ] Safety-goggles
 - [ ] Fans with carbon filters
 - [ ] Write documentation
 - [ ] Bring soldering irons
+
+## Building kits
+
+The kits contain some parts to build the imponator.  The resistors and capacitors are not included and need to be taken from the SMD parts books.
+
+### possible build order
+
+- leave film on acrylic, attach to protect leds
+- tiny MCP - dot to arrow
+- UART - dot to arrow
+- R3, R4: 5.1kΩ
+- R5 : 10kΩ
+- C1, C9: 100nF
+- C2: 1µF
+- SW2, SW3
+- SW1
+- USB, place then solder from LED side
+- test for short circuits
+- program UDPI bootloader
+- flash with arduino code in `sw`
+- remove acrylic, remove film or scuff with sandpaper for diffuse view
+- imponere your friends
+
+### Tips
+
+- practice moving parts around with tweezers
+- lower heat: 280C
+- small tips are bad at conducting heat
+- hot air to remove parts if misplaced
+- hot air to help seat USB after soldering
+- maybe attach battery
+
+### In the kit
+
+- circuit board with LEDs (handle carefully)
+    - if you want to DIY leds with solder paste, ask us
+- 2x buttons
+- switch
+- tiny MCU
+- UART
+- battery pack
+- acrylic plate
+
+### Not in the kit
+
+- resistors
+- capacitors
+- M2 screws/bolts to attach acrylic plate
+
+### Resistors and Capacitors
+
+| part location | spec |
+|---|---|
+| R3 R4 | 2x 5.1kΩ |
+| R5 | 10kΩ |
+| C1 C9 | 2x 100nF |
+| C2 | 1µF |
+| optional sensors | |
+| R6 or R7 | short |
+| R8 R9 R10 R11 | 4x 10kΩ |
+| C3 | 2.2 nF |
+| C4 C5 | 2x 0.1µF |
+| C6 | 10 nF |
+| C7 C8 | 2x 1µF |
